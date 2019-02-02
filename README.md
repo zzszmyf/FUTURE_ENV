@@ -3,6 +3,7 @@
 conf.yaml 进行相关配置
 
 conf.yaml配置详解
+```
 base:
     #一些公共的配置
     local_path : /Users/xxxxx/yyyy/zzzzz/
@@ -31,7 +32,7 @@ build:
 run:
     version : v2
     #TBD
-
+```
 
 目前已经实现功能:
 1. 可以配置代码仓库和编译环境,拉下代码
