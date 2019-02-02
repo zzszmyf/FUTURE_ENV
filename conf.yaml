@@ -1,0 +1,15 @@
+base:
+    local_path : /Users/zqmath1994/docker/test/
+    container_path : /work/
+    container_name : brpc_v2_c
+    use_sudo : 1
+    code_path : /root/work/
+init:
+    from : zqmath1994/brpc-in-centos
+    git : https://github.com/brpc/brpc.git
+    user : root
+    image_name : brpc_test
+build:
+    version : v1
+run:
+    version : v2
